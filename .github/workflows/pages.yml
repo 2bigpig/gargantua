@@ -28,3 +28,7 @@ jobs:
         with:
           path: _site
       - uses: actions/deploy-pages@v4
+      - name: Verify published HTML
+        run: |
+          curl --fail --retry 10 --retry-delay 3 https://2bigpig.github.io/gargantua/ --output /tmp/live.html
+          cmp gargantua.html /tmp/live.html
