@@ -1,0 +1,27 @@
+// 沿用用户选定的粗犷吸积盘与电影色调。
+export const config = {
+  blackHoleMass: 0.55,
+  diskInnerRadius: 3.4,
+  diskOuterRadius: 12,
+  diskTemperature: 6.8,
+  temperatureFalloff: 0.85,
+  diskBrightness: 2.3,
+  diskRotationSpeed: -1.8,
+  turbulenceScale: 2.8,
+  turbulenceStretch: 0.035,
+  turbulenceSharpness: 1.8,
+  turbulenceCycleTime: 60,
+  turbulenceLacunarity: 2.7,
+  turbulencePersistence: 0.6,
+  diskEdgeSoftnessInner: 0.035,
+  diskEdgeSoftnessOuter: 0.8,
+  gravitationalLensing: 1.0,
+  dopplerStrength: 0.3,
+  stepSize: 0.8,
+  starsEnabled: false,
+  starBackgroundColor: '#000000',
+  starDensity: 0.035,
+  starSize: 0.75,
+  starBrightness: 0.22,
+  nebulaEnabled: false
+};

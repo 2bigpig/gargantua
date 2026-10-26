@@ -1,0 +1,56 @@
+{
+  "name": "gargantua-animation",
+  "version": "0.2.0",
+  "description": "Gargantua black hole — Interstellar-inspired 4K animation｜卡冈图雅黑洞 · 星际穿越风格实时动画",
+  "type": "module",
+  "private": true,
+  "author": "2bigpig",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "exports": {
+    ".": "./dist/gargantua.js"
+  },
+  "files": [
+    "src/",
+    "assets/",
+    "dist/",
+    "gargantua.html",
+    "scripts/",
+    "licenses/",
+    "LICENSE",
+    "THIRD_PARTY_NOTICES.md",
+    "README.md",
+    "README.en.md",
+    "package-lock.json"
+  ],
+  "scripts": {
+    "build": "node scripts/build.mjs"
+  },
+  "dependencies": {
+    "three": "0.181.1"
+  },
+  "devDependencies": {
+    "esbuild": "0.25.12"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/2bigpig/gargantua.git"
+  },
+  "homepage": "https://2bigpig.github.io/gargantua/",
+  "bugs": {
+    "url": "https://github.com/2bigpig/gargantua/issues"
+  },
+  "keywords": [
+    "gargantua",
+    "black-hole",
+    "interstellar",
+    "webgpu",
+    "threejs",
+    "animation",
+    "4k",
+    "html",
+    "offline"
+  ]
+}
